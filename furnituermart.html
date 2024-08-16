@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Example</title>
+    <!-- Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header
+      class="flex flex-wrap justify-between items-center p-4 px-8 bg-orange-600"
+    >
+      <div class="logo flex items-center gap-3 mb-4 md:mb-0">
+        <img src="img/fav-icon.png" alt="" class="w-8 h-8" />
+        <span class="text-3xl text-white font-bold">FurnitureMart</span>
+      </div>
+      <nav class="w-full md:w-auto mb-4 md:mb-0">
+        <ul
+          class="flex flex-col md:flex-row items-center gap-5 text-white font-semibold"
+        >
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div
+        class="search w-full md:w-auto flex flex-col md:flex-row items-center gap-2 mb-4 md:mb-0"
+      >
+        <input
+          type="search"
+          placeholder="Search here"
+          class="p-2 rounded border-none w-full md:w-auto"
+        />
+        <button class="p-2 bg-white text-orange-600 rounded w-full md:w-auto">
+          Search
+        </button>
+      </div>
+      <div
+        class="icons flex flex-wrap justify-center md:justify-end gap-5 text-white"
+      >
+        <div class="flex flex-col items-center">
+          <i class="fa-solid fa-store"></i>
+          <h1>Store</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="fa-solid fa-user"></i>
+          <h1>Profile</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="fa-solid fa-heart"></i>
+          <h1>Wishlist</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h1>Cart</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="product_bar  px-8">
+      <ul class="flex items-center justify-center gap-14 p-2 text-white font-semibold ">
+        <li>
+          <a href="#">Sofas</a>
+        </li>
+        <li>
+          <a href="#">Living</a>
+        </li>
+        <li>
+          <a href="#">Bedroom</a>
+        </li>
+        <li>
+          <a href="#">Dining & Kitchen</a>
+        </li>
+        <li>
+          <a href="#">Storage</a>
+        </li>
+        <li>
+          <a href="#">Study & Office</a>
+        </li>
+        <li>
+          <a href="#">Matresses</a>
+        </li>
+        <li>
+          <a href="#">Decore</a>
+        </li>
+        <li>
+          <a href="#">Lamps & Lighting</a>
+        </li>
+        <li>
+          <a href="#">Furnishing</a>
+        </li>
+        <li>
+          <a href="#">Outdoor</a>
+        </li>
+        <li>
+          <a href="#">WS Value</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
