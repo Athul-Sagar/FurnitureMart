@@ -7,3 +7,11 @@
         background-color: rgb(153, 61, 11);
         
       }
+
+      .top_picks h1{
+        color: rgb(194 65 12);
+      }
+
+      .add_to_cart{
+        background-color: rgb(234 88 12);
+      }
